@@ -6,5 +6,7 @@ import "github.build.ge.com/DockerCI/agent/agent"
 
 func main() {
 	git.Clone("https://github.com/shannonrdunn/github-maven-example", "/tmp/workspace", &git.CloneOptions{})
-	agent.New("/tmp/workspace/")
+	j := agent.New("/Users/212403630/Documents/github-maven-example")
+	j.Create()
+	j.Start()
 }
