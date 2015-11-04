@@ -1,5 +1,5 @@
 FROM golang:1.4
-ADD .
+ADD . /go/
 RUN go build -o agentcmd
 
 CMD agentcmd
