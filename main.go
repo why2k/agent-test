@@ -1,6 +1,6 @@
 package main
 
-import "gopkg.in/libgit2/git2go.v22"
+import "github.com/why2k/agent-test/Godeps/_workspace/src/gopkg.in/libgit2/git2go.v22"
 
 import "os"
 

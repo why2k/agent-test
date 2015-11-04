@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/why2k/agent-test/Godeps/_workspace/src/github.com/golang/glog"
 )
 
 var (

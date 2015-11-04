@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/why2k/agent-test/Godeps/_workspace/src/github.com/golang/glog"
 )
 
 // Subscriptions is a collection to urls that marathon is implmenting a callback on

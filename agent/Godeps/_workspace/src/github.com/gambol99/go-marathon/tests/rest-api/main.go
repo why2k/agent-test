@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/golang/glog"
-	yaml "gopkg.in/yaml.v2"
+	"github.com/why2k/agent-test/agent/Godeps/_workspace/src/github.com/golang/glog"
+	yaml "github.com/why2k/agent-test/agent/Godeps/_workspace/src/gopkg.in/yaml.v2"
 )
 
 type RestMethod struct {

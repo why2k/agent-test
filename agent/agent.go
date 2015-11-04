@@ -4,8 +4,8 @@ import "path/filepath"
 
 import "io/ioutil"
 
-import "gopkg.in/yaml.v2"
-import "github.com/fsouza/go-dockerclient"
+import "github.com/why2k/agent-test/agent/Godeps/_workspace/src/gopkg.in/yaml.v2"
+import "github.com/why2k/agent-test/agent/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
 import "fmt"
 
 const Docker_url = "tcp://192.168.59.103:2375"

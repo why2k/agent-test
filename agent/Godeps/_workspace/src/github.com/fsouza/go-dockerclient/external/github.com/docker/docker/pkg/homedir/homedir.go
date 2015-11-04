@@ -4,7 +4,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/fsouza/go-dockerclient/external/github.com/opencontainers/runc/libcontainer/user"
+	"github.com/why2k/agent-test/agent/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/opencontainers/runc/libcontainer/user"
 )
 
 // Key returns the env var name for the user's home dir based on

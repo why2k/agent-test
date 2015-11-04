@@ -5,8 +5,8 @@ import (
 
 	"fmt"
 
-	marathon "github.com/gambol99/go-marathon"
-	"github.com/golang/glog"
+	marathon "github.com/why2k/agent-test/agent/Godeps/_workspace/src/github.com/gambol99/go-marathon"
+	"github.com/why2k/agent-test/agent/Godeps/_workspace/src/github.com/golang/glog"
 )
 
 func Testme() {

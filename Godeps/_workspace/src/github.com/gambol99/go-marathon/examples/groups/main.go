@@ -21,8 +21,8 @@ import (
 	"os"
 	"time"
 
-	marathon "github.com/gambol99/go-marathon"
-	"github.com/golang/glog"
+	marathon "github.com/why2k/agent-test/Godeps/_workspace/src/github.com/gambol99/go-marathon"
+	"github.com/why2k/agent-test/Godeps/_workspace/src/github.com/golang/glog"
 )
 
 var marathon_url string

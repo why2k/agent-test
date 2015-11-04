@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.build.ge.com/DockerCI/agent/agent",
+	"ImportPath": "github.com/why2k/agent-test/agent",
 	"GoVersion": "go1.5.1",
 	"Deps": [
 		{

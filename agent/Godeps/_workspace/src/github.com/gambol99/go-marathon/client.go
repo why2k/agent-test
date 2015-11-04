@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/why2k/agent-test/agent/Godeps/_workspace/src/github.com/golang/glog"
 )
 
 // Marathon is the interface to the marathon API
