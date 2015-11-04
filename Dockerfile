@@ -1,5 +1,4 @@
 FROM golang:1.4
-ADD . /go/
-RUN go build -o agentcmd
+RUN go get github.com/why2k/agent-test
 
-CMD agentcmd
+CMD agent-test
