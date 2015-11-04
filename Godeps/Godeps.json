@@ -1,10 +1,26 @@
 {
-	"ImportPath": "github.build.ge.com/DockerCI/agent",
+	"ImportPath": "github.com/why2k/agent-test",
 	"GoVersion": "go1.5.1",
 	"Deps": [
 		{
+			"ImportPath": "github.com/fsouza/go-dockerclient",
+			"Rev": "64c100a0b566fb3569431b9416eb5a794a322981"
+		},
+		{
+			"ImportPath": "github.com/gambol99/go-marathon",
+			"Rev": "e9c9f5791f534d326b15b28d01d11e59ede4b33a"
+		},
+		{
+			"ImportPath": "github.com/golang/glog",
+			"Rev": "fca8c8854093a154ff1eb580aae10276ad6b1b5f"
+		},
+		{
 			"ImportPath": "gopkg.in/libgit2/git2go.v22",
 			"Rev": "41ad00f868e7dfcdb04c7538f27350d400f710a3"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "53feefa2559fb8dfa8d81baad31be332c97d6c77"
 		}
 	]
 }
