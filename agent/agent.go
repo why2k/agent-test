@@ -13,7 +13,7 @@ const Docker_url = "tcp://192.168.59.103:2375"
 type Job struct {
 	Repo      string `yaml:"Repo"`
 	Image     string `yaml:"Image"`
-	Command   string `yaml:"Command"`
+	Commands  string `yaml:"Command"`
 	Status    string `yaml:"Status"`
 	Container *docker.Container
 }
@@ -25,12 +25,12 @@ func New(path string) Job {
 	if err != nil {
 		panic(err)
 	}
-	configjob.Parse(yamlFile)
+	configjob.parse(yamlFile)
 
 	return configjob
 }
 
-func (j *Job) Parse(data []byte) {
+func (j *Job) parse(data []byte) {
 	yaml.Unmarshal(data, j)
 }
 
@@ -43,7 +43,7 @@ func (j *Job) Create() {
 		AttachStdin:  true,
 		Image:        j.Image,
 		Volumes:      volumes,
-		Cmd:          []string{j.Command},
+		Cmd:          []string{j.Commands},
 		WorkingDir:   "/usr/src",
 	}
 	opts := docker.CreateContainerOptions{Name: "MAVENTEST", Config: &config}
