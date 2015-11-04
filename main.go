@@ -4,7 +4,7 @@ import "gopkg.in/libgit2/git2go.v22"
 
 import "os"
 
-import "github.build.ge.com/Dockerci/agent/agent"
+import "github.com/why2k/agent-test/agent"
 
 func main() {
 
